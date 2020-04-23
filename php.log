@@ -55542,3 +55542,2337 @@ OVA作品の中ではサイド６のコロニー内が舞台ということで�
 
 )
 
+[23-Apr-2020 10:19:48 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:19:48 Asia/Tokyo] デバッグ：=HOME
+[23-Apr-2020 10:19:48 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:19:48 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:19:48 Asia/Tokyo] デバッグ：▶︎画面処理開始
+[23-Apr-2020 10:19:48 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:19:48 Asia/Tokyo] デバッグ：セッションID：rv6f94gr5qq6ttf688tlcaoq52
+[23-Apr-2020 10:19:48 Asia/Tokyo] デバッグ：現在タイムスタンプ：1587604788
+[23-Apr-2020 10:19:48 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[23-Apr-2020 10:19:48 Asia/Tokyo] デバッグ：GETパラメータの中身：Array
+(
+)
+
+[23-Apr-2020 10:19:48 Asia/Tokyo] デバッグ：現在のページ：1
+[23-Apr-2020 10:19:48 Asia/Tokyo] デバッグ：$getParamの中身：
+[23-Apr-2020 10:19:48 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[23-Apr-2020 10:19:48 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:19:48 Asia/Tokyo] デバッグ：$dbCategoryの中身:Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => HG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:08
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => MG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:31
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => PG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:58
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => RG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:27:16
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => SD
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:28:37
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => その他
+
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:29:03
+        )
+
+)
+
+[23-Apr-2020 10:19:48 Asia/Tokyo] デバッグ：作品情報を取得します。
+[23-Apr-2020 10:19:48 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:19:48 Asia/Tokyo] デバッグ：SQLの中身：SELECT p.id ,p.name ,p.pic1 ,u.username,count(l.product_id) AS count_like FROM product AS p INNER JOIN users AS u ON p.user_id=u.id LEFT JOIN p_like AS l ON l.product_id=p.id GROUP BY p.id,p.name,p.pic1,u.username ORDER BY p.id DESC LIMIT :span OFFSET :currentMinNum
+[23-Apr-2020 10:19:48 Asia/Tokyo] デバッグ：$productDataListの中身：Array
+(
+    [total] => 16
+    [total_page] => 2
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 18
+                    [name] => aaaaaaaa
+                    [pic1] => uploads/dcfcbe0bbd5a221e42220dbb4db4a4e571dc365e.jpeg
+                    [username] => tonenao
+                    [count_like] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 17
+                    [name] => ガンダム　ヴィダール
+                    [pic1] => uploads/dcfcbe0bbd5a221e42220dbb4db4a4e571dc365e.jpeg
+                    [username] => tonenao
+                    [count_like] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 14
+                    [name] => ASW-G-08 ガンダム バルバトス ルプスレクス
+                    [pic1] => uploads/7ce01ca9202512b3e05880dadfda55d0ecbaa533.jpeg
+                    [username] => 鉄華団
+                    [count_like] => 2
+                )
+
+            [3] => Array
+                (
+                    [id] => 13
+                    [name] => ASW-G-08 ガンダム バルバトス
+                    [pic1] => uploads/4a12892cc2f439f2dfc6e3c8bdc78dc881173e51.jpeg
+                    [username] => 鉄華団
+                    [count_like] => 1
+                )
+
+            [4] => Array
+                (
+                    [id] => 12
+                    [name] => RX-78NT-1 ガンダムアレックス
+                    [pic1] => uploads/42ed34b2f216e48d31b69c95054bc4cfe2abca9b.jpeg
+                    [username] => めたもん。
+                    [count_like] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 11
+                    [name] => RX-78GP01-Fb ガンダム試作１号機　ゼフィランサス　フルバーニアン　
+                    [pic1] => uploads/e8b971e6f54d95b3cd6b9e29490c9a29a45b97be.jpeg
+                    [username] => めたもん。
+                    [count_like] => 1
+                )
+
+            [6] => Array
+                (
+                    [id] => 10
+                    [name] => RMS-009 リックディアス
+                    [pic1] => uploads/99a1982f696b2c970830a051a046ef39bdc89f54.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 9
+                    [name] => MSM-07S シャア専用ズゴック
+                    [pic1] => uploads/86fea40957d65576406da71e270121d82424f6d8.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 1
+                )
+
+            [8] => Array
+                (
+                    [id] => 8
+                    [name] => MSN-04 サザビー
+                    [pic1] => uploads/8ddfb58e5f3019261fd8a0a8e9e76268f4f5a7b8.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+            [9] => Array
+                (
+                    [id] => 7
+                    [name] => MSZ-00100 百式
+                    [pic1] => uploads/311528013cc39efd1ab75a4f33f4263767d9fe6e.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+        )
+
+)
+
+[23-Apr-2020 10:19:48 Asia/Tokyo] デバッグ：$totalPageNumの中身：2
+[23-Apr-2020 10:21:48 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:21:48 Asia/Tokyo] デバッグ：=HOME
+[23-Apr-2020 10:21:48 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:21:48 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:21:48 Asia/Tokyo] デバッグ：▶︎画面処理開始
+[23-Apr-2020 10:21:48 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:21:48 Asia/Tokyo] デバッグ：セッションID：emmf4lsr1kfu7m15j5qmrne89r
+[23-Apr-2020 10:21:48 Asia/Tokyo] デバッグ：現在タイムスタンプ：1587604908
+[23-Apr-2020 10:21:48 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[23-Apr-2020 10:21:48 Asia/Tokyo] デバッグ：GETパラメータの中身：Array
+(
+)
+
+[23-Apr-2020 10:21:48 Asia/Tokyo] デバッグ：現在のページ：1
+[23-Apr-2020 10:21:48 Asia/Tokyo] デバッグ：$getParamの中身：
+[23-Apr-2020 10:21:48 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[23-Apr-2020 10:21:48 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:21:48 Asia/Tokyo] デバッグ：$dbCategoryの中身:Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => HG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:08
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => MG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:31
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => PG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:58
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => RG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:27:16
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => SD
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:28:37
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => その他
+
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:29:03
+        )
+
+)
+
+[23-Apr-2020 10:21:48 Asia/Tokyo] デバッグ：作品情報を取得します。
+[23-Apr-2020 10:21:48 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:21:48 Asia/Tokyo] デバッグ：SQLの中身：SELECT p.id ,p.name ,p.pic1 ,u.username,count(l.product_id) AS count_like FROM product AS p INNER JOIN users AS u ON p.user_id=u.id LEFT JOIN p_like AS l ON l.product_id=p.id GROUP BY p.id,p.name,p.pic1,u.username ORDER BY p.id DESC LIMIT :span OFFSET :currentMinNum
+[23-Apr-2020 10:21:48 Asia/Tokyo] デバッグ：$productDataListの中身：Array
+(
+    [total] => 16
+    [total_page] => 2
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 18
+                    [name] => aaaaaaaa
+                    [pic1] => uploads/dcfcbe0bbd5a221e42220dbb4db4a4e571dc365e.jpeg
+                    [username] => tonenao
+                    [count_like] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 17
+                    [name] => ガンダム　ヴィダール
+                    [pic1] => uploads/dcfcbe0bbd5a221e42220dbb4db4a4e571dc365e.jpeg
+                    [username] => tonenao
+                    [count_like] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 14
+                    [name] => ASW-G-08 ガンダム バルバトス ルプスレクス
+                    [pic1] => uploads/7ce01ca9202512b3e05880dadfda55d0ecbaa533.jpeg
+                    [username] => 鉄華団
+                    [count_like] => 2
+                )
+
+            [3] => Array
+                (
+                    [id] => 13
+                    [name] => ASW-G-08 ガンダム バルバトス
+                    [pic1] => uploads/4a12892cc2f439f2dfc6e3c8bdc78dc881173e51.jpeg
+                    [username] => 鉄華団
+                    [count_like] => 1
+                )
+
+            [4] => Array
+                (
+                    [id] => 12
+                    [name] => RX-78NT-1 ガンダムアレックス
+                    [pic1] => uploads/42ed34b2f216e48d31b69c95054bc4cfe2abca9b.jpeg
+                    [username] => めたもん。
+                    [count_like] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 11
+                    [name] => RX-78GP01-Fb ガンダム試作１号機　ゼフィランサス　フルバーニアン　
+                    [pic1] => uploads/e8b971e6f54d95b3cd6b9e29490c9a29a45b97be.jpeg
+                    [username] => めたもん。
+                    [count_like] => 1
+                )
+
+            [6] => Array
+                (
+                    [id] => 10
+                    [name] => RMS-009 リックディアス
+                    [pic1] => uploads/99a1982f696b2c970830a051a046ef39bdc89f54.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 9
+                    [name] => MSM-07S シャア専用ズゴック
+                    [pic1] => uploads/86fea40957d65576406da71e270121d82424f6d8.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 1
+                )
+
+            [8] => Array
+                (
+                    [id] => 8
+                    [name] => MSN-04 サザビー
+                    [pic1] => uploads/8ddfb58e5f3019261fd8a0a8e9e76268f4f5a7b8.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+            [9] => Array
+                (
+                    [id] => 7
+                    [name] => MSZ-00100 百式
+                    [pic1] => uploads/311528013cc39efd1ab75a4f33f4263767d9fe6e.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+        )
+
+)
+
+[23-Apr-2020 10:21:48 Asia/Tokyo] デバッグ：$totalPageNumの中身：2
+[23-Apr-2020 10:22:26 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:22:26 Asia/Tokyo] デバッグ：=商品詳細
+[23-Apr-2020 10:22:26 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:22:26 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:22:26 Asia/Tokyo] デバッグ：▶︎画面処理開始
+[23-Apr-2020 10:22:26 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:22:26 Asia/Tokyo] デバッグ：セッションID：eioov59e2u3884evusfsct0ge3
+[23-Apr-2020 10:22:26 Asia/Tokyo] デバッグ：現在タイムスタンプ：1587604946
+[23-Apr-2020 10:22:26 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[23-Apr-2020 10:22:26 Asia/Tokyo] デバッグ：$_POSTの中身：Array
+(
+)
+
+[23-Apr-2020 10:22:27 Asia/Tokyo] デバッグ：p_idの中身：13
+[23-Apr-2020 10:22:27 Asia/Tokyo] デバッグ：商品情報を取得します。
+[23-Apr-2020 10:22:27 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:22:27 Asia/Tokyo] デバッグ：$productDataの中身：Array
+(
+    [id] => 13
+    [name] => ASW-G-08 ガンダム バルバトス
+    [user_id] => 4
+    [category_id] => 2
+    [comment] => 鉄血のオルフェンズより。
+宇宙世紀とは関連のない作品の中での主人公機。
+最初はデザインに違和感を感じていたものの。あっという間に作品に魅了され、一番好きな機体となったほど。戦闘シーンの表現方法は独特で、ものすごいリアリティ。
+パイロットのミカズキがこれまたかっこ良くて…何度見直しても飽きることのない作品と機体です！
+    [pic1] => uploads/4a12892cc2f439f2dfc6e3c8bdc78dc881173e51.jpeg
+    [pic2] => uploads/5c091271662b76943b197e89c986a18da55be777.jpeg
+    [pic3] => uploads/b83f374030c8b35c2907a348b77324d64603bf29.jpeg
+    [username] => 鉄華団
+    [category] => MG
+)
+
+[23-Apr-2020 10:22:27 Asia/Tokyo] デバッグ：投稿内容を取得します。
+[23-Apr-2020 10:22:27 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:22:27 Asia/Tokyo] デバッグ：$messageDataの中身：Array
+(
+)
+
+[23-Apr-2020 10:22:27 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:22:27 Asia/Tokyo] デバッグ：お気に入りの数：1
+[23-Apr-2020 10:22:27 Asia/Tokyo] デバッグ：未ログインです。
+[23-Apr-2020 10:22:27 Asia/Tokyo] デバッグ：isLoginの中身：
+[23-Apr-2020 10:22:27 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します。
+[23-Apr-2020 10:22:27 Asia/Tokyo] デバッグ：作品ID：13
+[23-Apr-2020 10:22:27 Asia/Tokyo] デバッグ：ユーザーID：0
+[23-Apr-2020 10:22:27 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:22:27 Asia/Tokyo] デバッグ：お気に入りではありません。
+[23-Apr-2020 10:22:27 Asia/Tokyo] デバッグ：未ログインです。
+[23-Apr-2020 10:22:27 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:22:44 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:22:44 Asia/Tokyo] デバッグ：=HOME
+[23-Apr-2020 10:22:44 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:22:44 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:22:44 Asia/Tokyo] デバッグ：▶︎画面処理開始
+[23-Apr-2020 10:22:44 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:22:44 Asia/Tokyo] デバッグ：セッションID：118aputk01gbahehedo3ovegv7
+[23-Apr-2020 10:22:44 Asia/Tokyo] デバッグ：現在タイムスタンプ：1587604964
+[23-Apr-2020 10:22:44 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[23-Apr-2020 10:22:44 Asia/Tokyo] デバッグ：GETパラメータの中身：Array
+(
+)
+
+[23-Apr-2020 10:22:44 Asia/Tokyo] デバッグ：現在のページ：1
+[23-Apr-2020 10:22:44 Asia/Tokyo] デバッグ：$getParamの中身：
+[23-Apr-2020 10:22:44 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[23-Apr-2020 10:22:44 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:22:44 Asia/Tokyo] デバッグ：$dbCategoryの中身:Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => HG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:08
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => MG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:31
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => PG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:58
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => RG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:27:16
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => SD
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:28:37
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => その他
+
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:29:03
+        )
+
+)
+
+[23-Apr-2020 10:22:44 Asia/Tokyo] デバッグ：作品情報を取得します。
+[23-Apr-2020 10:22:44 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:22:44 Asia/Tokyo] デバッグ：SQLの中身：SELECT p.id ,p.name ,p.pic1 ,u.username,count(l.product_id) AS count_like FROM product AS p INNER JOIN users AS u ON p.user_id=u.id LEFT JOIN p_like AS l ON l.product_id=p.id GROUP BY p.id,p.name,p.pic1,u.username ORDER BY p.id DESC LIMIT :span OFFSET :currentMinNum
+[23-Apr-2020 10:22:44 Asia/Tokyo] デバッグ：$productDataListの中身：Array
+(
+    [total] => 16
+    [total_page] => 2
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 18
+                    [name] => aaaaaaaa
+                    [pic1] => uploads/dcfcbe0bbd5a221e42220dbb4db4a4e571dc365e.jpeg
+                    [username] => tonenao
+                    [count_like] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 17
+                    [name] => ガンダム　ヴィダール
+                    [pic1] => uploads/dcfcbe0bbd5a221e42220dbb4db4a4e571dc365e.jpeg
+                    [username] => tonenao
+                    [count_like] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 14
+                    [name] => ASW-G-08 ガンダム バルバトス ルプスレクス
+                    [pic1] => uploads/7ce01ca9202512b3e05880dadfda55d0ecbaa533.jpeg
+                    [username] => 鉄華団
+                    [count_like] => 2
+                )
+
+            [3] => Array
+                (
+                    [id] => 13
+                    [name] => ASW-G-08 ガンダム バルバトス
+                    [pic1] => uploads/4a12892cc2f439f2dfc6e3c8bdc78dc881173e51.jpeg
+                    [username] => 鉄華団
+                    [count_like] => 1
+                )
+
+            [4] => Array
+                (
+                    [id] => 12
+                    [name] => RX-78NT-1 ガンダムアレックス
+                    [pic1] => uploads/42ed34b2f216e48d31b69c95054bc4cfe2abca9b.jpeg
+                    [username] => めたもん。
+                    [count_like] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 11
+                    [name] => RX-78GP01-Fb ガンダム試作１号機　ゼフィランサス　フルバーニアン　
+                    [pic1] => uploads/e8b971e6f54d95b3cd6b9e29490c9a29a45b97be.jpeg
+                    [username] => めたもん。
+                    [count_like] => 1
+                )
+
+            [6] => Array
+                (
+                    [id] => 10
+                    [name] => RMS-009 リックディアス
+                    [pic1] => uploads/99a1982f696b2c970830a051a046ef39bdc89f54.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 9
+                    [name] => MSM-07S シャア専用ズゴック
+                    [pic1] => uploads/86fea40957d65576406da71e270121d82424f6d8.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 1
+                )
+
+            [8] => Array
+                (
+                    [id] => 8
+                    [name] => MSN-04 サザビー
+                    [pic1] => uploads/8ddfb58e5f3019261fd8a0a8e9e76268f4f5a7b8.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+            [9] => Array
+                (
+                    [id] => 7
+                    [name] => MSZ-00100 百式
+                    [pic1] => uploads/311528013cc39efd1ab75a4f33f4263767d9fe6e.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+        )
+
+)
+
+[23-Apr-2020 10:22:44 Asia/Tokyo] デバッグ：$totalPageNumの中身：2
+[23-Apr-2020 10:22:49 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:22:49 Asia/Tokyo] デバッグ：=HOME
+[23-Apr-2020 10:22:49 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:22:49 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:22:49 Asia/Tokyo] デバッグ：▶︎画面処理開始
+[23-Apr-2020 10:22:49 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:22:49 Asia/Tokyo] デバッグ：セッションID：qpp1c8vj86rcc57akkmpv2f95s
+[23-Apr-2020 10:22:49 Asia/Tokyo] デバッグ：現在タイムスタンプ：1587604969
+[23-Apr-2020 10:22:49 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[23-Apr-2020 10:22:49 Asia/Tokyo] デバッグ：GETパラメータの中身：Array
+(
+    [p] => 2
+)
+
+[23-Apr-2020 10:22:49 Asia/Tokyo] デバッグ：現在のページ：2
+[23-Apr-2020 10:22:49 Asia/Tokyo] デバッグ：$getParamの中身：
+[23-Apr-2020 10:22:49 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[23-Apr-2020 10:22:49 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:22:49 Asia/Tokyo] デバッグ：$dbCategoryの中身:Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => HG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:08
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => MG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:31
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => PG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:58
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => RG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:27:16
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => SD
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:28:37
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => その他
+
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:29:03
+        )
+
+)
+
+[23-Apr-2020 10:22:49 Asia/Tokyo] デバッグ：作品情報を取得します。
+[23-Apr-2020 10:22:49 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:22:49 Asia/Tokyo] デバッグ：SQLの中身：SELECT p.id ,p.name ,p.pic1 ,u.username,count(l.product_id) AS count_like FROM product AS p INNER JOIN users AS u ON p.user_id=u.id LEFT JOIN p_like AS l ON l.product_id=p.id GROUP BY p.id,p.name,p.pic1,u.username ORDER BY p.id DESC LIMIT :span OFFSET :currentMinNum
+[23-Apr-2020 10:22:49 Asia/Tokyo] デバッグ：$productDataListの中身：Array
+(
+    [total] => 16
+    [total_page] => 2
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [name] => NZ-999 ネオ・ジオング
+                    [pic1] => uploads/00966cdf95bbdf78f3e7c4e83f3a3d58dd9866eb.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 5
+                    [name] => MS-06S シャア専用ザクⅡ
+                    [pic1] => uploads/0a929bae963bb7f995400bc539256e31892c4168.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 1
+                )
+
+            [2] => Array
+                (
+                    [id] => 4
+                    [name] => RX-79(G) 陸戦用ガンダム
+                    [pic1] => uploads/9688075dee73b77cdd75eec184c60219707ce7fe.jpeg
+                    [username] => めたもん。
+                    [count_like] => 1
+                )
+
+            [3] => Array
+                (
+                    [id] => 3
+                    [name] => RX-78-GP03 デンドロビウム
+                    [pic1] => uploads/4923327bdd160cd6e8c7dc06782aac13234c83cd.jpeg
+                    [username] => めたもん。
+                    [count_like] => 4
+                )
+
+            [4] => Array
+                (
+                    [id] => 2
+                    [name] => RX0 ユニコーンガンダム
+                    [pic1] => uploads/8a27d53167bbfa207df57c139e0e29b3ccf62213.jpeg
+                    [username] => tonenao
+                    [count_like] => 2
+                )
+
+            [5] => Array
+                (
+                    [id] => 1
+                    [name] => RX-78-2 ガンダム
+                    [pic1] => uploads/11b141e70b82c3416dc3f06103f479aa9d4e4237.jpeg
+                    [username] => tonenao
+                    [count_like] => 4
+                )
+
+        )
+
+)
+
+[23-Apr-2020 10:22:49 Asia/Tokyo] デバッグ：$totalPageNumの中身：2
+[23-Apr-2020 10:22:56 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:22:56 Asia/Tokyo] デバッグ：=HOME
+[23-Apr-2020 10:22:56 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:22:56 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:22:56 Asia/Tokyo] デバッグ：▶︎画面処理開始
+[23-Apr-2020 10:22:56 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:22:56 Asia/Tokyo] デバッグ：セッションID：negegk7ko1p9vur0u3occ63kod
+[23-Apr-2020 10:22:56 Asia/Tokyo] デバッグ：現在タイムスタンプ：1587604976
+[23-Apr-2020 10:22:56 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[23-Apr-2020 10:22:56 Asia/Tokyo] デバッグ：GETパラメータの中身：Array
+(
+)
+
+[23-Apr-2020 10:22:56 Asia/Tokyo] デバッグ：現在のページ：1
+[23-Apr-2020 10:22:56 Asia/Tokyo] デバッグ：$getParamの中身：
+[23-Apr-2020 10:22:56 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[23-Apr-2020 10:22:56 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:22:56 Asia/Tokyo] デバッグ：$dbCategoryの中身:Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => HG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:08
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => MG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:31
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => PG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:58
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => RG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:27:16
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => SD
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:28:37
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => その他
+
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:29:03
+        )
+
+)
+
+[23-Apr-2020 10:22:56 Asia/Tokyo] デバッグ：作品情報を取得します。
+[23-Apr-2020 10:22:56 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:22:56 Asia/Tokyo] デバッグ：SQLの中身：SELECT p.id ,p.name ,p.pic1 ,u.username,count(l.product_id) AS count_like FROM product AS p INNER JOIN users AS u ON p.user_id=u.id LEFT JOIN p_like AS l ON l.product_id=p.id GROUP BY p.id,p.name,p.pic1,u.username ORDER BY p.id DESC LIMIT :span OFFSET :currentMinNum
+[23-Apr-2020 10:22:56 Asia/Tokyo] デバッグ：$productDataListの中身：Array
+(
+    [total] => 16
+    [total_page] => 2
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 18
+                    [name] => aaaaaaaa
+                    [pic1] => uploads/dcfcbe0bbd5a221e42220dbb4db4a4e571dc365e.jpeg
+                    [username] => tonenao
+                    [count_like] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 17
+                    [name] => ガンダム　ヴィダール
+                    [pic1] => uploads/dcfcbe0bbd5a221e42220dbb4db4a4e571dc365e.jpeg
+                    [username] => tonenao
+                    [count_like] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 14
+                    [name] => ASW-G-08 ガンダム バルバトス ルプスレクス
+                    [pic1] => uploads/7ce01ca9202512b3e05880dadfda55d0ecbaa533.jpeg
+                    [username] => 鉄華団
+                    [count_like] => 2
+                )
+
+            [3] => Array
+                (
+                    [id] => 13
+                    [name] => ASW-G-08 ガンダム バルバトス
+                    [pic1] => uploads/4a12892cc2f439f2dfc6e3c8bdc78dc881173e51.jpeg
+                    [username] => 鉄華団
+                    [count_like] => 1
+                )
+
+            [4] => Array
+                (
+                    [id] => 12
+                    [name] => RX-78NT-1 ガンダムアレックス
+                    [pic1] => uploads/42ed34b2f216e48d31b69c95054bc4cfe2abca9b.jpeg
+                    [username] => めたもん。
+                    [count_like] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 11
+                    [name] => RX-78GP01-Fb ガンダム試作１号機　ゼフィランサス　フルバーニアン　
+                    [pic1] => uploads/e8b971e6f54d95b3cd6b9e29490c9a29a45b97be.jpeg
+                    [username] => めたもん。
+                    [count_like] => 1
+                )
+
+            [6] => Array
+                (
+                    [id] => 10
+                    [name] => RMS-009 リックディアス
+                    [pic1] => uploads/99a1982f696b2c970830a051a046ef39bdc89f54.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 9
+                    [name] => MSM-07S シャア専用ズゴック
+                    [pic1] => uploads/86fea40957d65576406da71e270121d82424f6d8.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 1
+                )
+
+            [8] => Array
+                (
+                    [id] => 8
+                    [name] => MSN-04 サザビー
+                    [pic1] => uploads/8ddfb58e5f3019261fd8a0a8e9e76268f4f5a7b8.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+            [9] => Array
+                (
+                    [id] => 7
+                    [name] => MSZ-00100 百式
+                    [pic1] => uploads/311528013cc39efd1ab75a4f33f4263767d9fe6e.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+        )
+
+)
+
+[23-Apr-2020 10:22:56 Asia/Tokyo] デバッグ：$totalPageNumの中身：2
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：=商品詳細
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：▶︎画面処理開始
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：セッションID：ekg6mdbi6kmm4gil39c9a01gi8
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：現在タイムスタンプ：1587604981
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：$_POSTの中身：Array
+(
+)
+
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：p_idの中身：18
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：商品情報を取得します。
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：$productDataの中身：Array
+(
+    [id] => 18
+    [name] => aaaaaaaa
+    [user_id] => 1
+    [category_id] => 1
+    [comment] => 
+    [pic1] => uploads/dcfcbe0bbd5a221e42220dbb4db4a4e571dc365e.jpeg
+    [pic2] => 
+    [pic3] => 
+    [username] => tonenao
+    [category] => HG
+)
+
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：投稿内容を取得します。
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：$messageDataの中身：Array
+(
+)
+
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：お気に入りの数：1
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：未ログインです。
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：isLoginの中身：
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します。
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：作品ID：18
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：ユーザーID：0
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：お気に入りではありません。
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：未ログインです。
+[23-Apr-2020 10:23:01 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:04 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:23:04 Asia/Tokyo] デバッグ：=HOME
+[23-Apr-2020 10:23:04 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:23:04 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:04 Asia/Tokyo] デバッグ：▶︎画面処理開始
+[23-Apr-2020 10:23:04 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:04 Asia/Tokyo] デバッグ：セッションID：6ij4kmh5cakkb7j4580a94q47a
+[23-Apr-2020 10:23:04 Asia/Tokyo] デバッグ：現在タイムスタンプ：1587604984
+[23-Apr-2020 10:23:04 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[23-Apr-2020 10:23:04 Asia/Tokyo] デバッグ：GETパラメータの中身：Array
+(
+)
+
+[23-Apr-2020 10:23:04 Asia/Tokyo] デバッグ：現在のページ：1
+[23-Apr-2020 10:23:04 Asia/Tokyo] デバッグ：$getParamの中身：
+[23-Apr-2020 10:23:04 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[23-Apr-2020 10:23:04 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:04 Asia/Tokyo] デバッグ：$dbCategoryの中身:Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => HG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:08
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => MG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:31
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => PG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:58
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => RG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:27:16
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => SD
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:28:37
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => その他
+
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:29:03
+        )
+
+)
+
+[23-Apr-2020 10:23:04 Asia/Tokyo] デバッグ：作品情報を取得します。
+[23-Apr-2020 10:23:04 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:04 Asia/Tokyo] デバッグ：SQLの中身：SELECT p.id ,p.name ,p.pic1 ,u.username,count(l.product_id) AS count_like FROM product AS p INNER JOIN users AS u ON p.user_id=u.id LEFT JOIN p_like AS l ON l.product_id=p.id GROUP BY p.id,p.name,p.pic1,u.username ORDER BY p.id DESC LIMIT :span OFFSET :currentMinNum
+[23-Apr-2020 10:23:04 Asia/Tokyo] デバッグ：$productDataListの中身：Array
+(
+    [total] => 16
+    [total_page] => 2
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 18
+                    [name] => aaaaaaaa
+                    [pic1] => uploads/dcfcbe0bbd5a221e42220dbb4db4a4e571dc365e.jpeg
+                    [username] => tonenao
+                    [count_like] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 17
+                    [name] => ガンダム　ヴィダール
+                    [pic1] => uploads/dcfcbe0bbd5a221e42220dbb4db4a4e571dc365e.jpeg
+                    [username] => tonenao
+                    [count_like] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 14
+                    [name] => ASW-G-08 ガンダム バルバトス ルプスレクス
+                    [pic1] => uploads/7ce01ca9202512b3e05880dadfda55d0ecbaa533.jpeg
+                    [username] => 鉄華団
+                    [count_like] => 2
+                )
+
+            [3] => Array
+                (
+                    [id] => 13
+                    [name] => ASW-G-08 ガンダム バルバトス
+                    [pic1] => uploads/4a12892cc2f439f2dfc6e3c8bdc78dc881173e51.jpeg
+                    [username] => 鉄華団
+                    [count_like] => 1
+                )
+
+            [4] => Array
+                (
+                    [id] => 12
+                    [name] => RX-78NT-1 ガンダムアレックス
+                    [pic1] => uploads/42ed34b2f216e48d31b69c95054bc4cfe2abca9b.jpeg
+                    [username] => めたもん。
+                    [count_like] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 11
+                    [name] => RX-78GP01-Fb ガンダム試作１号機　ゼフィランサス　フルバーニアン　
+                    [pic1] => uploads/e8b971e6f54d95b3cd6b9e29490c9a29a45b97be.jpeg
+                    [username] => めたもん。
+                    [count_like] => 1
+                )
+
+            [6] => Array
+                (
+                    [id] => 10
+                    [name] => RMS-009 リックディアス
+                    [pic1] => uploads/99a1982f696b2c970830a051a046ef39bdc89f54.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 9
+                    [name] => MSM-07S シャア専用ズゴック
+                    [pic1] => uploads/86fea40957d65576406da71e270121d82424f6d8.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 1
+                )
+
+            [8] => Array
+                (
+                    [id] => 8
+                    [name] => MSN-04 サザビー
+                    [pic1] => uploads/8ddfb58e5f3019261fd8a0a8e9e76268f4f5a7b8.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+            [9] => Array
+                (
+                    [id] => 7
+                    [name] => MSZ-00100 百式
+                    [pic1] => uploads/311528013cc39efd1ab75a4f33f4263767d9fe6e.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+        )
+
+)
+
+[23-Apr-2020 10:23:04 Asia/Tokyo] デバッグ：$totalPageNumの中身：2
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：=商品詳細
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：▶︎画面処理開始
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：セッションID：hj6u1ajk4eajvo83i6uv5qbflb
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：現在タイムスタンプ：1587604985
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：$_POSTの中身：Array
+(
+)
+
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：p_idの中身：17
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：商品情報を取得します。
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：$productDataの中身：Array
+(
+    [id] => 17
+    [name] => ガンダム　ヴィダール
+    [user_id] => 1
+    [category_id] => 2
+    [comment] => aaaaaaaa
+    [pic1] => uploads/dcfcbe0bbd5a221e42220dbb4db4a4e571dc365e.jpeg
+    [pic2] => uploads/4f4414010f20568cb03dcf53b53eb66c75d0091e.jpeg
+    [pic3] => uploads/61d01c776fe8ceca8bc1111ad749bf073f496308.jpeg
+    [username] => tonenao
+    [category] => MG
+)
+
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：投稿内容を取得します。
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：$messageDataの中身：Array
+(
+)
+
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：お気に入りの数：0
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：未ログインです。
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：isLoginの中身：
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します。
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：作品ID：17
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：ユーザーID：0
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：お気に入りではありません。
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：未ログインです。
+[23-Apr-2020 10:23:05 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:12 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:23:12 Asia/Tokyo] デバッグ：=　Ajax.php　
+[23-Apr-2020 10:23:12 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:23:12 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:12 Asia/Tokyo] デバッグ：▶︎画面処理開始
+[23-Apr-2020 10:23:12 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:12 Asia/Tokyo] デバッグ：セッションID：hhghrdfh4ht8dudjmudrc0mp0j
+[23-Apr-2020 10:23:12 Asia/Tokyo] デバッグ：現在タイムスタンプ：1587604992
+[23-Apr-2020 10:23:12 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[23-Apr-2020 10:23:12 Asia/Tokyo] デバッグ：AjaxでPOSTされた内容：17
+[23-Apr-2020 10:23:12 Asia/Tokyo] デバッグ：未ログインです。
+[23-Apr-2020 10:23:12 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:23:12 Asia/Tokyo] デバッグ：=ログインページ
+[23-Apr-2020 10:23:12 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:23:12 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:12 Asia/Tokyo] デバッグ：▶︎画面処理開始
+[23-Apr-2020 10:23:12 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:12 Asia/Tokyo] デバッグ：セッションID：r4sl7u9rd6gstemdhsphdsc8ug
+[23-Apr-2020 10:23:12 Asia/Tokyo] デバッグ：現在タイムスタンプ：1587604992
+[23-Apr-2020 10:23:12 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[23-Apr-2020 10:23:12 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[23-Apr-2020 10:23:12 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:12 Asia/Tokyo] デバッグ：▶︎画面遷移せずログインページ画面処理終了
+[23-Apr-2020 10:23:12 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:14 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:23:14 Asia/Tokyo] デバッグ：=HOME
+[23-Apr-2020 10:23:14 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:23:14 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:14 Asia/Tokyo] デバッグ：▶︎画面処理開始
+[23-Apr-2020 10:23:14 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:14 Asia/Tokyo] デバッグ：セッションID：bkmnqp6s9r27tuqcdpjotanbgv
+[23-Apr-2020 10:23:14 Asia/Tokyo] デバッグ：現在タイムスタンプ：1587604994
+[23-Apr-2020 10:23:14 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[23-Apr-2020 10:23:14 Asia/Tokyo] デバッグ：GETパラメータの中身：Array
+(
+)
+
+[23-Apr-2020 10:23:14 Asia/Tokyo] デバッグ：現在のページ：1
+[23-Apr-2020 10:23:14 Asia/Tokyo] デバッグ：$getParamの中身：
+[23-Apr-2020 10:23:14 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[23-Apr-2020 10:23:14 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:14 Asia/Tokyo] デバッグ：$dbCategoryの中身:Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => HG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:08
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => MG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:31
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => PG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:58
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => RG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:27:16
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => SD
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:28:37
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => その他
+
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:29:03
+        )
+
+)
+
+[23-Apr-2020 10:23:14 Asia/Tokyo] デバッグ：作品情報を取得します。
+[23-Apr-2020 10:23:14 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:14 Asia/Tokyo] デバッグ：SQLの中身：SELECT p.id ,p.name ,p.pic1 ,u.username,count(l.product_id) AS count_like FROM product AS p INNER JOIN users AS u ON p.user_id=u.id LEFT JOIN p_like AS l ON l.product_id=p.id GROUP BY p.id,p.name,p.pic1,u.username ORDER BY p.id DESC LIMIT :span OFFSET :currentMinNum
+[23-Apr-2020 10:23:14 Asia/Tokyo] デバッグ：$productDataListの中身：Array
+(
+    [total] => 16
+    [total_page] => 2
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 18
+                    [name] => aaaaaaaa
+                    [pic1] => uploads/dcfcbe0bbd5a221e42220dbb4db4a4e571dc365e.jpeg
+                    [username] => tonenao
+                    [count_like] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 17
+                    [name] => ガンダム　ヴィダール
+                    [pic1] => uploads/dcfcbe0bbd5a221e42220dbb4db4a4e571dc365e.jpeg
+                    [username] => tonenao
+                    [count_like] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 14
+                    [name] => ASW-G-08 ガンダム バルバトス ルプスレクス
+                    [pic1] => uploads/7ce01ca9202512b3e05880dadfda55d0ecbaa533.jpeg
+                    [username] => 鉄華団
+                    [count_like] => 2
+                )
+
+            [3] => Array
+                (
+                    [id] => 13
+                    [name] => ASW-G-08 ガンダム バルバトス
+                    [pic1] => uploads/4a12892cc2f439f2dfc6e3c8bdc78dc881173e51.jpeg
+                    [username] => 鉄華団
+                    [count_like] => 1
+                )
+
+            [4] => Array
+                (
+                    [id] => 12
+                    [name] => RX-78NT-1 ガンダムアレックス
+                    [pic1] => uploads/42ed34b2f216e48d31b69c95054bc4cfe2abca9b.jpeg
+                    [username] => めたもん。
+                    [count_like] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 11
+                    [name] => RX-78GP01-Fb ガンダム試作１号機　ゼフィランサス　フルバーニアン　
+                    [pic1] => uploads/e8b971e6f54d95b3cd6b9e29490c9a29a45b97be.jpeg
+                    [username] => めたもん。
+                    [count_like] => 1
+                )
+
+            [6] => Array
+                (
+                    [id] => 10
+                    [name] => RMS-009 リックディアス
+                    [pic1] => uploads/99a1982f696b2c970830a051a046ef39bdc89f54.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 9
+                    [name] => MSM-07S シャア専用ズゴック
+                    [pic1] => uploads/86fea40957d65576406da71e270121d82424f6d8.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 1
+                )
+
+            [8] => Array
+                (
+                    [id] => 8
+                    [name] => MSN-04 サザビー
+                    [pic1] => uploads/8ddfb58e5f3019261fd8a0a8e9e76268f4f5a7b8.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+            [9] => Array
+                (
+                    [id] => 7
+                    [name] => MSZ-00100 百式
+                    [pic1] => uploads/311528013cc39efd1ab75a4f33f4263767d9fe6e.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+        )
+
+)
+
+[23-Apr-2020 10:23:14 Asia/Tokyo] デバッグ：$totalPageNumの中身：2
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：=商品詳細
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：▶︎画面処理開始
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：セッションID：5hhs93kk6qs13cm9g5cv6h5vva
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：現在タイムスタンプ：1587604997
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：$_POSTの中身：Array
+(
+)
+
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：p_idの中身：12
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：商品情報を取得します。
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：$productDataの中身：Array
+(
+    [id] => 12
+    [name] => RX-78NT-1 ガンダムアレックス
+    [user_id] => 2
+    [category_id] => 2
+    [comment] => ポケットの戦争より。
+アレックスといえば、「チョバムアーマー」ですよね。
+OVA作品の中ではサイド６のコロニー内が舞台ということで戦闘自体は地味でしたが、物語が秀逸で非常に記憶に有名な機体ですね。
+
+    [pic1] => uploads/42ed34b2f216e48d31b69c95054bc4cfe2abca9b.jpeg
+    [pic2] => uploads/7c431a29f9185684d5dba63f3248a4f81dc05fba.jpeg
+    [pic3] => uploads/096911405a265410a6101a9560c1b73fef874350.jpeg
+    [username] => めたもん。
+    [category] => MG
+)
+
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：投稿内容を取得します。
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：$messageDataの中身：Array
+(
+)
+
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：お気に入りの数：0
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：未ログインです。
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：isLoginの中身：
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します。
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：作品ID：12
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：ユーザーID：0
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：お気に入りではありません。
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：未ログインです。
+[23-Apr-2020 10:23:17 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:20 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:23:20 Asia/Tokyo] デバッグ：=HOME
+[23-Apr-2020 10:23:20 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:23:20 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:20 Asia/Tokyo] デバッグ：▶︎画面処理開始
+[23-Apr-2020 10:23:20 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:20 Asia/Tokyo] デバッグ：セッションID：khfkesa9unqqd0bq1b4pqq1k8a
+[23-Apr-2020 10:23:20 Asia/Tokyo] デバッグ：現在タイムスタンプ：1587605000
+[23-Apr-2020 10:23:20 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[23-Apr-2020 10:23:20 Asia/Tokyo] デバッグ：GETパラメータの中身：Array
+(
+)
+
+[23-Apr-2020 10:23:20 Asia/Tokyo] デバッグ：現在のページ：1
+[23-Apr-2020 10:23:20 Asia/Tokyo] デバッグ：$getParamの中身：
+[23-Apr-2020 10:23:20 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[23-Apr-2020 10:23:20 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:20 Asia/Tokyo] デバッグ：$dbCategoryの中身:Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => HG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:08
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => MG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:31
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => PG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:58
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => RG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:27:16
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => SD
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:28:37
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => その他
+
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:29:03
+        )
+
+)
+
+[23-Apr-2020 10:23:20 Asia/Tokyo] デバッグ：作品情報を取得します。
+[23-Apr-2020 10:23:20 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:20 Asia/Tokyo] デバッグ：SQLの中身：SELECT p.id ,p.name ,p.pic1 ,u.username,count(l.product_id) AS count_like FROM product AS p INNER JOIN users AS u ON p.user_id=u.id LEFT JOIN p_like AS l ON l.product_id=p.id GROUP BY p.id,p.name,p.pic1,u.username ORDER BY p.id DESC LIMIT :span OFFSET :currentMinNum
+[23-Apr-2020 10:23:20 Asia/Tokyo] デバッグ：$productDataListの中身：Array
+(
+    [total] => 16
+    [total_page] => 2
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 18
+                    [name] => aaaaaaaa
+                    [pic1] => uploads/dcfcbe0bbd5a221e42220dbb4db4a4e571dc365e.jpeg
+                    [username] => tonenao
+                    [count_like] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 17
+                    [name] => ガンダム　ヴィダール
+                    [pic1] => uploads/dcfcbe0bbd5a221e42220dbb4db4a4e571dc365e.jpeg
+                    [username] => tonenao
+                    [count_like] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 14
+                    [name] => ASW-G-08 ガンダム バルバトス ルプスレクス
+                    [pic1] => uploads/7ce01ca9202512b3e05880dadfda55d0ecbaa533.jpeg
+                    [username] => 鉄華団
+                    [count_like] => 2
+                )
+
+            [3] => Array
+                (
+                    [id] => 13
+                    [name] => ASW-G-08 ガンダム バルバトス
+                    [pic1] => uploads/4a12892cc2f439f2dfc6e3c8bdc78dc881173e51.jpeg
+                    [username] => 鉄華団
+                    [count_like] => 1
+                )
+
+            [4] => Array
+                (
+                    [id] => 12
+                    [name] => RX-78NT-1 ガンダムアレックス
+                    [pic1] => uploads/42ed34b2f216e48d31b69c95054bc4cfe2abca9b.jpeg
+                    [username] => めたもん。
+                    [count_like] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 11
+                    [name] => RX-78GP01-Fb ガンダム試作１号機　ゼフィランサス　フルバーニアン　
+                    [pic1] => uploads/e8b971e6f54d95b3cd6b9e29490c9a29a45b97be.jpeg
+                    [username] => めたもん。
+                    [count_like] => 1
+                )
+
+            [6] => Array
+                (
+                    [id] => 10
+                    [name] => RMS-009 リックディアス
+                    [pic1] => uploads/99a1982f696b2c970830a051a046ef39bdc89f54.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 9
+                    [name] => MSM-07S シャア専用ズゴック
+                    [pic1] => uploads/86fea40957d65576406da71e270121d82424f6d8.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 1
+                )
+
+            [8] => Array
+                (
+                    [id] => 8
+                    [name] => MSN-04 サザビー
+                    [pic1] => uploads/8ddfb58e5f3019261fd8a0a8e9e76268f4f5a7b8.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+            [9] => Array
+                (
+                    [id] => 7
+                    [name] => MSZ-00100 百式
+                    [pic1] => uploads/311528013cc39efd1ab75a4f33f4263767d9fe6e.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+        )
+
+)
+
+[23-Apr-2020 10:23:20 Asia/Tokyo] デバッグ：$totalPageNumの中身：2
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：=商品詳細
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：▶︎画面処理開始
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：セッションID：35gudcj5bt3u1oa1urr1o70et5
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：現在タイムスタンプ：1587605002
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：$_POSTの中身：Array
+(
+)
+
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：p_idの中身：13
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：商品情報を取得します。
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：$productDataの中身：Array
+(
+    [id] => 13
+    [name] => ASW-G-08 ガンダム バルバトス
+    [user_id] => 4
+    [category_id] => 2
+    [comment] => 鉄血のオルフェンズより。
+宇宙世紀とは関連のない作品の中での主人公機。
+最初はデザインに違和感を感じていたものの。あっという間に作品に魅了され、一番好きな機体となったほど。戦闘シーンの表現方法は独特で、ものすごいリアリティ。
+パイロットのミカズキがこれまたかっこ良くて…何度見直しても飽きることのない作品と機体です！
+    [pic1] => uploads/4a12892cc2f439f2dfc6e3c8bdc78dc881173e51.jpeg
+    [pic2] => uploads/5c091271662b76943b197e89c986a18da55be777.jpeg
+    [pic3] => uploads/b83f374030c8b35c2907a348b77324d64603bf29.jpeg
+    [username] => 鉄華団
+    [category] => MG
+)
+
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：投稿内容を取得します。
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：$messageDataの中身：Array
+(
+)
+
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：お気に入りの数：1
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：未ログインです。
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：isLoginの中身：
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します。
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：作品ID：13
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：ユーザーID：0
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：お気に入りではありません。
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：未ログインです。
+[23-Apr-2020 10:23:22 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:24 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:23:24 Asia/Tokyo] デバッグ：=HOME
+[23-Apr-2020 10:23:24 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:23:24 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:24 Asia/Tokyo] デバッグ：▶︎画面処理開始
+[23-Apr-2020 10:23:24 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:24 Asia/Tokyo] デバッグ：セッションID：mi6khhjseqtrc2fm84i0l2fjf5
+[23-Apr-2020 10:23:24 Asia/Tokyo] デバッグ：現在タイムスタンプ：1587605004
+[23-Apr-2020 10:23:24 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[23-Apr-2020 10:23:24 Asia/Tokyo] デバッグ：GETパラメータの中身：Array
+(
+)
+
+[23-Apr-2020 10:23:24 Asia/Tokyo] デバッグ：現在のページ：1
+[23-Apr-2020 10:23:24 Asia/Tokyo] デバッグ：$getParamの中身：
+[23-Apr-2020 10:23:24 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[23-Apr-2020 10:23:24 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:24 Asia/Tokyo] デバッグ：$dbCategoryの中身:Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => HG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:08
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => MG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:31
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => PG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:58
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => RG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:27:16
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => SD
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:28:37
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => その他
+
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:29:03
+        )
+
+)
+
+[23-Apr-2020 10:23:24 Asia/Tokyo] デバッグ：作品情報を取得します。
+[23-Apr-2020 10:23:24 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:24 Asia/Tokyo] デバッグ：SQLの中身：SELECT p.id ,p.name ,p.pic1 ,u.username,count(l.product_id) AS count_like FROM product AS p INNER JOIN users AS u ON p.user_id=u.id LEFT JOIN p_like AS l ON l.product_id=p.id GROUP BY p.id,p.name,p.pic1,u.username ORDER BY p.id DESC LIMIT :span OFFSET :currentMinNum
+[23-Apr-2020 10:23:24 Asia/Tokyo] デバッグ：$productDataListの中身：Array
+(
+    [total] => 16
+    [total_page] => 2
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 18
+                    [name] => aaaaaaaa
+                    [pic1] => uploads/dcfcbe0bbd5a221e42220dbb4db4a4e571dc365e.jpeg
+                    [username] => tonenao
+                    [count_like] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 17
+                    [name] => ガンダム　ヴィダール
+                    [pic1] => uploads/dcfcbe0bbd5a221e42220dbb4db4a4e571dc365e.jpeg
+                    [username] => tonenao
+                    [count_like] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 14
+                    [name] => ASW-G-08 ガンダム バルバトス ルプスレクス
+                    [pic1] => uploads/7ce01ca9202512b3e05880dadfda55d0ecbaa533.jpeg
+                    [username] => 鉄華団
+                    [count_like] => 2
+                )
+
+            [3] => Array
+                (
+                    [id] => 13
+                    [name] => ASW-G-08 ガンダム バルバトス
+                    [pic1] => uploads/4a12892cc2f439f2dfc6e3c8bdc78dc881173e51.jpeg
+                    [username] => 鉄華団
+                    [count_like] => 1
+                )
+
+            [4] => Array
+                (
+                    [id] => 12
+                    [name] => RX-78NT-1 ガンダムアレックス
+                    [pic1] => uploads/42ed34b2f216e48d31b69c95054bc4cfe2abca9b.jpeg
+                    [username] => めたもん。
+                    [count_like] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 11
+                    [name] => RX-78GP01-Fb ガンダム試作１号機　ゼフィランサス　フルバーニアン　
+                    [pic1] => uploads/e8b971e6f54d95b3cd6b9e29490c9a29a45b97be.jpeg
+                    [username] => めたもん。
+                    [count_like] => 1
+                )
+
+            [6] => Array
+                (
+                    [id] => 10
+                    [name] => RMS-009 リックディアス
+                    [pic1] => uploads/99a1982f696b2c970830a051a046ef39bdc89f54.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 9
+                    [name] => MSM-07S シャア専用ズゴック
+                    [pic1] => uploads/86fea40957d65576406da71e270121d82424f6d8.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 1
+                )
+
+            [8] => Array
+                (
+                    [id] => 8
+                    [name] => MSN-04 サザビー
+                    [pic1] => uploads/8ddfb58e5f3019261fd8a0a8e9e76268f4f5a7b8.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+            [9] => Array
+                (
+                    [id] => 7
+                    [name] => MSZ-00100 百式
+                    [pic1] => uploads/311528013cc39efd1ab75a4f33f4263767d9fe6e.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+        )
+
+)
+
+[23-Apr-2020 10:23:24 Asia/Tokyo] デバッグ：$totalPageNumの中身：2
+[23-Apr-2020 10:23:30 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:23:30 Asia/Tokyo] デバッグ：=HOME
+[23-Apr-2020 10:23:30 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:23:30 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:30 Asia/Tokyo] デバッグ：▶︎画面処理開始
+[23-Apr-2020 10:23:30 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:30 Asia/Tokyo] デバッグ：セッションID：nabuuc1ehcikodm4qoqq4f3nv8
+[23-Apr-2020 10:23:30 Asia/Tokyo] デバッグ：現在タイムスタンプ：1587605010
+[23-Apr-2020 10:23:30 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[23-Apr-2020 10:23:30 Asia/Tokyo] デバッグ：GETパラメータの中身：Array
+(
+    [p] => 2
+)
+
+[23-Apr-2020 10:23:30 Asia/Tokyo] デバッグ：現在のページ：2
+[23-Apr-2020 10:23:30 Asia/Tokyo] デバッグ：$getParamの中身：
+[23-Apr-2020 10:23:30 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[23-Apr-2020 10:23:30 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:30 Asia/Tokyo] デバッグ：$dbCategoryの中身:Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => HG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:08
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => MG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:31
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => PG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:58
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => RG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:27:16
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => SD
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:28:37
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => その他
+
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:29:03
+        )
+
+)
+
+[23-Apr-2020 10:23:30 Asia/Tokyo] デバッグ：作品情報を取得します。
+[23-Apr-2020 10:23:30 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:30 Asia/Tokyo] デバッグ：SQLの中身：SELECT p.id ,p.name ,p.pic1 ,u.username,count(l.product_id) AS count_like FROM product AS p INNER JOIN users AS u ON p.user_id=u.id LEFT JOIN p_like AS l ON l.product_id=p.id GROUP BY p.id,p.name,p.pic1,u.username ORDER BY p.id DESC LIMIT :span OFFSET :currentMinNum
+[23-Apr-2020 10:23:30 Asia/Tokyo] デバッグ：$productDataListの中身：Array
+(
+    [total] => 16
+    [total_page] => 2
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 6
+                    [name] => NZ-999 ネオ・ジオング
+                    [pic1] => uploads/00966cdf95bbdf78f3e7c4e83f3a3d58dd9866eb.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 5
+                    [name] => MS-06S シャア専用ザクⅡ
+                    [pic1] => uploads/0a929bae963bb7f995400bc539256e31892c4168.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 1
+                )
+
+            [2] => Array
+                (
+                    [id] => 4
+                    [name] => RX-79(G) 陸戦用ガンダム
+                    [pic1] => uploads/9688075dee73b77cdd75eec184c60219707ce7fe.jpeg
+                    [username] => めたもん。
+                    [count_like] => 1
+                )
+
+            [3] => Array
+                (
+                    [id] => 3
+                    [name] => RX-78-GP03 デンドロビウム
+                    [pic1] => uploads/4923327bdd160cd6e8c7dc06782aac13234c83cd.jpeg
+                    [username] => めたもん。
+                    [count_like] => 4
+                )
+
+            [4] => Array
+                (
+                    [id] => 2
+                    [name] => RX0 ユニコーンガンダム
+                    [pic1] => uploads/8a27d53167bbfa207df57c139e0e29b3ccf62213.jpeg
+                    [username] => tonenao
+                    [count_like] => 2
+                )
+
+            [5] => Array
+                (
+                    [id] => 1
+                    [name] => RX-78-2 ガンダム
+                    [pic1] => uploads/11b141e70b82c3416dc3f06103f479aa9d4e4237.jpeg
+                    [username] => tonenao
+                    [count_like] => 4
+                )
+
+        )
+
+)
+
+[23-Apr-2020 10:23:30 Asia/Tokyo] デバッグ：$totalPageNumの中身：2
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：=商品詳細
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：▶︎画面処理開始
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：セッションID：d3lmo3hvbf2dt5o12ijv9fgear
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：現在タイムスタンプ：1587605013
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：$_POSTの中身：Array
+(
+)
+
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：p_idの中身：3
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：商品情報を取得します。
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：$productDataの中身：Array
+(
+    [id] => 3
+    [name] => RX-78-GP03 デンドロビウム
+    [user_id] => 2
+    [category_id] => 1
+    [comment] => とにかく圧巻の一言です。
+完成品は全長100cmを超える作品。
+（完成品を置いておくスペースが難点です笑）
+    [pic1] => uploads/4923327bdd160cd6e8c7dc06782aac13234c83cd.jpeg
+    [pic2] => uploads/6b1092ebc3c7c3c2261b987d949be1029dae471c.jpeg
+    [pic3] => uploads/2dcfbd7e1479a18d5b4519a15c55d35d3895cd78.jpeg
+    [username] => めたもん。
+    [category] => HG
+)
+
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：投稿内容を取得します。
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：$messageDataの中身：Array
+(
+    [0] => Array
+        (
+            [builder_user] => 2
+            [write_user] => 1
+            [msg] => これはかっこいい！
+            [create_date] => 2019-09-17 21:04:53
+            [username] => tonenao
+            [pic] => uploads/271abcb00c3671ec0c06c99c6e30ebbe455018cd.jpeg
+        )
+
+    [1] => Array
+        (
+            [builder_user] => 2
+            [write_user] => 2
+            [msg] => ありがとうございます！
+            [create_date] => 2019-09-17 21:05:26
+            [username] => めたもん。
+            [pic] => uploads/24e889a9259238916f88e97648ee4e45db6e2adb.png
+        )
+
+    [2] => Array
+        (
+            [builder_user] => 2
+            [write_user] => 3
+            [msg] => 見せてもらおうか、連邦軍のMSの性能とやらを！
+            [create_date] => 2019-09-17 21:07:47
+            [username] => 赤い彗星
+            [pic] => uploads/b7dfb4c38cd0b946b8d92af7543c33b41f72fe03.jpeg
+        )
+
+    [3] => Array
+        (
+            [builder_user] => 2
+            [write_user] => 1
+            [msg] => ・・・。
+            [create_date] => 2019-09-17 21:08:30
+            [username] => tonenao
+            [pic] => uploads/271abcb00c3671ec0c06c99c6e30ebbe455018cd.jpeg
+        )
+
+    [4] => Array
+        (
+            [builder_user] => 2
+            [write_user] => 1
+            [msg] => aaaaaa
+            [create_date] => 2019-09-17 21:29:50
+            [username] => tonenao
+            [pic] => uploads/271abcb00c3671ec0c06c99c6e30ebbe455018cd.jpeg
+        )
+
+)
+
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：お気に入りの数：4
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：未ログインです。
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：isLoginの中身：
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します。
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：作品ID：3
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：ユーザーID：0
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：お気に入りではありません。
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：未ログインです。
+[23-Apr-2020 10:23:33 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:48 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:23:48 Asia/Tokyo] デバッグ：=HOME
+[23-Apr-2020 10:23:48 Asia/Tokyo] デバッグ：=========================================
+[23-Apr-2020 10:23:48 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:48 Asia/Tokyo] デバッグ：▶︎画面処理開始
+[23-Apr-2020 10:23:48 Asia/Tokyo] デバッグ：▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎▶︎
+[23-Apr-2020 10:23:48 Asia/Tokyo] デバッグ：セッションID：0vc75s89kt5tamra44sdbk07i8
+[23-Apr-2020 10:23:48 Asia/Tokyo] デバッグ：現在タイムスタンプ：1587605028
+[23-Apr-2020 10:23:48 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[23-Apr-2020 10:23:48 Asia/Tokyo] デバッグ：GETパラメータの中身：Array
+(
+)
+
+[23-Apr-2020 10:23:48 Asia/Tokyo] デバッグ：現在のページ：1
+[23-Apr-2020 10:23:48 Asia/Tokyo] デバッグ：$getParamの中身：
+[23-Apr-2020 10:23:48 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[23-Apr-2020 10:23:48 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:48 Asia/Tokyo] デバッグ：$dbCategoryの中身:Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => HG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:08
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => MG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:31
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => PG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:26:58
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => RG
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:27:16
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => SD
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:28:37
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => その他
+
+            [delete_flg] => 0
+            [create_date] => 2019-07-29 00:00:00
+            [update_date] => 2019-07-29 08:29:03
+        )
+
+)
+
+[23-Apr-2020 10:23:48 Asia/Tokyo] デバッグ：作品情報を取得します。
+[23-Apr-2020 10:23:48 Asia/Tokyo] デバッグ：クエリ成功。
+[23-Apr-2020 10:23:48 Asia/Tokyo] デバッグ：SQLの中身：SELECT p.id ,p.name ,p.pic1 ,u.username,count(l.product_id) AS count_like FROM product AS p INNER JOIN users AS u ON p.user_id=u.id LEFT JOIN p_like AS l ON l.product_id=p.id GROUP BY p.id,p.name,p.pic1,u.username ORDER BY p.id DESC LIMIT :span OFFSET :currentMinNum
+[23-Apr-2020 10:23:48 Asia/Tokyo] デバッグ：$productDataListの中身：Array
+(
+    [total] => 16
+    [total_page] => 2
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 18
+                    [name] => aaaaaaaa
+                    [pic1] => uploads/dcfcbe0bbd5a221e42220dbb4db4a4e571dc365e.jpeg
+                    [username] => tonenao
+                    [count_like] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 17
+                    [name] => ガンダム　ヴィダール
+                    [pic1] => uploads/dcfcbe0bbd5a221e42220dbb4db4a4e571dc365e.jpeg
+                    [username] => tonenao
+                    [count_like] => 0
+                )
+
+            [2] => Array
+                (
+                    [id] => 14
+                    [name] => ASW-G-08 ガンダム バルバトス ルプスレクス
+                    [pic1] => uploads/7ce01ca9202512b3e05880dadfda55d0ecbaa533.jpeg
+                    [username] => 鉄華団
+                    [count_like] => 2
+                )
+
+            [3] => Array
+                (
+                    [id] => 13
+                    [name] => ASW-G-08 ガンダム バルバトス
+                    [pic1] => uploads/4a12892cc2f439f2dfc6e3c8bdc78dc881173e51.jpeg
+                    [username] => 鉄華団
+                    [count_like] => 1
+                )
+
+            [4] => Array
+                (
+                    [id] => 12
+                    [name] => RX-78NT-1 ガンダムアレックス
+                    [pic1] => uploads/42ed34b2f216e48d31b69c95054bc4cfe2abca9b.jpeg
+                    [username] => めたもん。
+                    [count_like] => 0
+                )
+
+            [5] => Array
+                (
+                    [id] => 11
+                    [name] => RX-78GP01-Fb ガンダム試作１号機　ゼフィランサス　フルバーニアン　
+                    [pic1] => uploads/e8b971e6f54d95b3cd6b9e29490c9a29a45b97be.jpeg
+                    [username] => めたもん。
+                    [count_like] => 1
+                )
+
+            [6] => Array
+                (
+                    [id] => 10
+                    [name] => RMS-009 リックディアス
+                    [pic1] => uploads/99a1982f696b2c970830a051a046ef39bdc89f54.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+            [7] => Array
+                (
+                    [id] => 9
+                    [name] => MSM-07S シャア専用ズゴック
+                    [pic1] => uploads/86fea40957d65576406da71e270121d82424f6d8.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 1
+                )
+
+            [8] => Array
+                (
+                    [id] => 8
+                    [name] => MSN-04 サザビー
+                    [pic1] => uploads/8ddfb58e5f3019261fd8a0a8e9e76268f4f5a7b8.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+            [9] => Array
+                (
+                    [id] => 7
+                    [name] => MSZ-00100 百式
+                    [pic1] => uploads/311528013cc39efd1ab75a4f33f4263767d9fe6e.jpeg
+                    [username] => 赤い彗星
+                    [count_like] => 0
+                )
+
+        )
+
+)
+
+[23-Apr-2020 10:23:48 Asia/Tokyo] デバッグ：$totalPageNumの中身：2
